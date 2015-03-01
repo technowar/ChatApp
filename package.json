@@ -2,7 +2,6 @@
   "name": "ChatApp",
   "version": "0.0.0",
   "description": "ChatUp App",
-  "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
@@ -10,5 +9,9 @@
     "Node"
   ],
   "author": "Johmel Rey Pintor",
-  "license": "MIT"
+  "license": "MIT",
+	"devDependencies": {
+		"chai": "*",
+		"mocha": "*"
+	}
 }
