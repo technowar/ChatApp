@@ -1,6 +1,6 @@
 'use strict';
 
-var Chat = require('./lib/chat');
+var Chat = require('../lib/chat');
 
 var Io = require('socket.io-client')('http://localhost:3030');
 
