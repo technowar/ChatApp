@@ -1,5 +1,7 @@
 'use strict';
 
+process.stdout.write('\u001B[2J\u001B[0;0f');
+
 var Chat = require('../lib/chat');
 
 var Io = require('socket.io-client')('http://localhost:3030');
